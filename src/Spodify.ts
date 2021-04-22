@@ -15,3 +15,11 @@ const scopes = [
     "user-modify-playback-state",
     "user-read-currently-playing",
 ]
+// Combination for Url
+export const login=
+`${authorization}
+?clientid=${clientID}
+&redirectUri=${redirectUri}
+&scope=${scopes.join("%20")}
+&response_type=token
+&show_dialog=true`; //join scope for login
