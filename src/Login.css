@@ -3,6 +3,7 @@
     place-items: center;
     height:100vh;
     background-color: black;
+    
 }
 .login > img {width: 100%;}
 .login > a{
@@ -13,3 +14,6 @@
     color:rgb(255, 255, 255);
     text-decoration: none;
 }
+/* .login > h1{
+    color: aliceblue;
+} */
