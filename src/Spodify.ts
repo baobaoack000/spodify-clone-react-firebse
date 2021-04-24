@@ -15,7 +15,7 @@ const scopes = [
     "user-modify-playback-state",
     "user-read-currently-playing",
 ]
-// Combination for Url
+// Combination for Url (order can be mixed in &)
 export const login=
 `${authorization}
 ?client_id=${clientID}
