@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Login.css"
+import { login } from './Spodify'
+
 // eslint-disable-next-line no-console
 function Login() {
     return (
@@ -8,7 +10,7 @@ function Login() {
             {/* spodify logo */}
             <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png" alt=""/>
             {/* login with spotify button */}
-            <a>LOGIN WITH SPODIFY</a>
+            <a href={login}>LOGIN WITH SPODIFY</a>
         </div>
     )
 }
